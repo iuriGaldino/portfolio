@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitArc - Agência de Desenvolvimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#home">BitArc</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#team" class="nav-link">Equipe</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">BitArc</h1>
+            <p class="hero-subtitle">Transformando Ideias em Realidade Digital</p>
+            <p class="hero-description">Agência especializada em desenvolvimento web, mobile e soluções personalizadas</p>
+            <button class="cta-button">Iniciar Projeto</button>
+        </div>
+        <div class="hero-animation">
+            <div class="animated-shape">
+                <svg class="network-animation" viewBox="0 0 300 300" width="300" height="300">
+                    <!-- Linhas da rede -->
+                    <g class="network-lines">
+                        <line x1="150" y1="50" x2="220" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="150" y1="50" x2="80" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="220" y1="100" x2="250" y2="180" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="80" y1="100" x2="50" y2="180" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="250" y1="180" x2="200" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="50" y1="180" x2="100" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="220" y1="100" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="80" y1="100" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="250" y1="180" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="50" y1="180" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="200" y1="260" x2="100" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="200" y1="260" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                        <line x1="100" y1="260" x2="150" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                    </g>
+                    <!-- Nós da rede -->
+                    <g class="network-nodes">
+                        <circle cx="150" cy="50" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="220" cy="100" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="80" cy="100" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="250" cy="180" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="50" cy="180" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="200" cy="260" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="100" cy="260" r="4" fill="#ffffff" class="node-pulse"/>
+                        <circle cx="150" cy="150" r="5" fill="#ffffff" class="node-center"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre BitArc</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A BitArc é uma agência de desenvolvimento especializada em criar soluções digitais inovadoras e escaláveis. Com uma equipe multidisciplinar, transformamos visões em produtos de alta qualidade.</p>
+                    <p>Desde 2018, trabalhamos com startups, PMEs e grandes empresas, entregando projetos que geram impacto real no mercado.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>80+</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>7+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Profissionais</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="image-icon">🏢</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="services" class="skills">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>Sites responsivos e aplicações web modernas com as tecnologias mais recentes</p>
+                </div>
+                <!-- <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Aplicativos nativos e cross-platform para iOS e Android</p>
+                </div> -->
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Design UX/UI</h3>
+                    <p>Interfaces intuitivas e experiências de usuário memoráveis</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend & APIs</h3>
+                    <p>Servidores robustos, APIs escaláveis e arquitetura de software</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Consultoria Tech</h3>
+                    <p>Estratégia tecnológica e orientação para transformação digital</p>
+                </div>
+                <!-- <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Deployment, automação e infraestrutura em nuvem</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">🌐</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plataforma E-commerce</h3>
+                        <p>Sistema completo de vendas online com mais de 10k produtos</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                            <span class="project-client">Cliente: TechStore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">📱</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App Gerenciador de Tarefas</h3>
+                        <p>Aplicativo mobile com sincronização em tempo real e notificações</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2024</span>
+                            <span class="project-client">Cliente: TaskFlow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎨</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analítico</h3>
+                        <p>Dashboard interativo com gráficos em tempo real e relatórios</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Chart.js</span>
+                            <span>Analytics</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                            <span class="project-client">Cliente: DataViz Inc</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">🛍️</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portal de Vendas B2B</h3>
+                        <p>Plataforma de negociação entre empresas com integração ERP</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>GraphQL</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                            <span class="project-client">Cliente: GlobalTrade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">💪</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App de Fitness</h3>
+                        <p>Aplicativo com treinos personalizados, rastreamento de progresso</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Wearables</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                            <span class="project-client">Cliente: FitLife</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">📚</div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plataforma de E-learning</h3>
+                        <p>Ambiente educacional com cursos interativos e gamificação</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Video Streaming</span>
+                            <span>LMS</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-year">2023</span>
+                            <span class="project-client">Cliente: EduPlus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">👨‍💼</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Carlos Silva</h3>
+                        <p class="member-role">CEO & Founder</p>
+                        <p class="member-bio">Visionário com 10 anos de experiência em estratégia digital</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">👩‍💻</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Ana Costa</h3>
+                        <p class="member-role">CTO & Lead Developer</p>
+                        <p class="member-bio">Especialista em arquitetura de software e práticas DevOps</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">🎨</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Bruno Oliveira</h3>
+                        <p class="member-role">Design Director</p>
+                        <p class="member-bio">Criador de experiências memoráveis com 8 anos em UX/UI</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">💼</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Marina Ferreira</h3>
+                        <p class="member-role">Project Manager</p>
+                        <p class="member-bio">Gerenciadora experiente com paixão por excelência operacional</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">🚀</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Lucas Santana</h3>
+                        <p class="member-role">Full Stack Developer</p>
+                        <p class="member-bio">Desenvolvedor versátil com expertise em cloud e microserviços</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="member-avatar">📱</div>
+                        <div class="member-overlay">
+                            <div class="social-links-member">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Twitter">tw</a>
+                                <a href="#" aria-label="GitHub">gh</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Juliana Rocha</h3>
+                        <p class="member-role">Mobile Developer</p>
+                        <p class="member-bio">Especialista em apps iOS e Android com 6 anos de experiência</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p class="contact-subtitle">Vamos conversar sobre seu próximo projeto!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:contato@BitArc.com">contato@BitArc.com</a>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <h3>Telefone</h3>
+                        <a href="tel:+5511999999999">(11) 99999-9999</a>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <h3>Localização</h3>
+                        <p>São Paulo, SP - Brasil</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🌐</div>
+                        <h3>Redes Sociais</h3>
+                        <div class="social-links-contact">
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="GitHub">GitHub</a>
+                            <a href="#" aria-label="Twitter">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Selecione um Serviço</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile App</option>
+                            <option value="design">Design UX/UI</option>
+                            <option value="consultoria">Consultoria Tech</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 BitArc. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">in</a>
+                <a href="#" aria-label="GitHub">gh</a>
+                <a href="#" aria-label="Twitter">tw</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
