@@ -1,4 +1,4 @@
-# DevStudio - Portfólio Corporativo 🚀
+# BitArc - Portfólio Corporativo 🚀
 
 Um site profissional, moderno e responsivo para apresentação de projetos, equipe e serviços de uma agência de desenvolvimento com suporte a **dark mode**.
 
@@ -195,7 +195,7 @@ O dark mode é automaticamente detectado ou pode ser alternado via botão na nav
 
 Os dados de contato podem ser editados em `index.html`:
 ```html
-<a href="mailto:contato@devstudio.com">contato@devstudio.com</a>
+<a href="mailto:contato@bitarc.com">contato@bitarc.com</a>
 <a href="tel:+5511999999999">(11) 99999-9999</a>
 ```
 
@@ -226,4 +226,4 @@ Uso livre para projetos pessoais e comerciais.
 
 ---
 
-**DevStudio - Transformando Ideias em Realidade Digital** 🚀
+**bitarc - Transformando Ideias em Realidade Digital** 🚀
